@@ -5,7 +5,26 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
-  },
-  "name": "mobile-sl"
+    ],
+    "scheme": "mobile-sl",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    }
+  }
 }
