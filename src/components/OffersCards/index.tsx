@@ -6,7 +6,6 @@ interface Props {
   uri: string
 }
 
-
 import {
   Container,
   ProductInfo,
